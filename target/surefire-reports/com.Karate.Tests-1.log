@@ -1,0 +1,21 @@
+13:45:37.502 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+13:45:38.143 request:
+1 > GET https://api.convergehub.com/v2/leads/search?apiKey=VI0EJL6G8WZLWDNW&apiSecret=b7engvGhX8mxGiRUr1yEGH7R2p6RU0VnIFlnCgrzAIYpKL0gWPiiSYl6hlGWSsr8pbNltMA8cUkx-3U1UnTucGgKrPMk_uh7hbNEBcBkJJ3NYf3nF6EPmT_DDZowa2Fm_5IX69v5wJREnjhGKwVfjE9lP84np0J0GAFi8qSAZCk&first_name=Andrew
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.convergehub.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_131)
+
+13:45:41.126 response time in milliseconds: 2888.75
+1 < 200
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 15 Feb 2019 08:15:22 GMT
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Pragma: no-cache
+1 < Server: nginx/1.10.3 (Ubuntu)
+1 < Set-Cookie: PHPSESSID=13446d3a0t5cjgutq04j0uoe30; path=/
+1 < Transfer-Encoding: chunked
+{"success":1,"data":[{"account_id":"","account_name":"","alt_address_city":"","alt_address_country":"","alt_address_postalcode":"","alt_address_state":"","alt_address_street":"","alt_address_street_2":"","annual_revenue":"","birthdate":"","created_by":"live_tester@mailinator.com","data_source":"","data_source_id":"","date_entered":"2019-01-30 07:09:31","date_modified":"2019-01-30 07:09:31","department":"","description":"","email":"","employees":"","first_name":"Andrew","id":"5f0748e2-bb54-d924-36a5-5c514d5ee03f","industry":"","last_activity":"Library","last_activity_by":"live_tester@mailinator.com","last_activity_date":"2019-01-30 08:07:32","last_name":"Jones","lead_source":"Email","modified_user_id":"live_tester@mailinator.com","phone":[{"country_code":"+91","number":"9830235347","extension":"","type":"Mobile","primary":1}],"primary_address_city":"","primary_address_country":"","primary_address_postalcode":"","primary_address_state":"","primary_address_street":"","primary_address_street_2":"","refered_by":"","salutation":"Mr.","score":"0","status":"New","title":"","type":"Person","website":"","estimated_amount_cstm":"","new_custom_cstm":"","r_fld_cstm":"","vvv_cstm":"","assigned_to":{"users":[{"username":"live_tester@mailinator.com","id":"f1709ed9-7df5-eeef-33ab-5858d5e04d0a"}]}}]}
+
