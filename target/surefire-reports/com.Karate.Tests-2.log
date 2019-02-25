@@ -1,0 +1,24 @@
+15:33:01.726 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:33:01.761 request:
+1 > POST https://api.convergehub.com/v2/leads
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 469
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: api.convergehub.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_131)
+{"apiSecret":"b7engvGhX8mxGiRUr1yEGH7R2p6RU0VnIFlnCgrzAIYpKL0gWPiiSYl6hlGWSsr8pbNltMA8cUkx-3U1UnTucGgKrPMk_uh7hbNEBcBkJJ3NYf3nF6EPmT_DDZowa2Fm_5IX69v5wJREnjhGKwVfjE9lP84np0J0GAFi8qSAZCk","apiKey":"VI0EJL6G8WZLWDNW","request":{"first_name":"O2","last_name":"Thomas27","primary_address_country":"Canada","status":"Converted","email":[{"address":"o1@m.com"}],"return_fields":["first_name","last_name","comments"],"phone":[{"number":"9910852011"},{"number":"8520741245"}]}}
+
+15:33:07.876 response time in milliseconds: 6113.38
+1 < 200
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 25 Feb 2019 10:02:31 GMT
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Pragma: no-cache
+1 < Server: nginx/1.10.3 (Ubuntu)
+1 < Set-Cookie: PHPSESSID=d4o3i4hhf8ih14vvjkl36vg7f6; path=/
+1 < Transfer-Encoding: chunked
+{"success":1,"data":{"first_name":"O2","last_name":"Thomas27"}}
+
