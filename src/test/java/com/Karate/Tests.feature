@@ -9,3 +9,9 @@ Given url 'https://api.convergehub.com/v2/leads'
 And request read('LeadCreate.json')
 When method POST
 Then status 200
+
+Scenario: Testing a Get endpoint with request body
+Given url 'https://api.convergehub.com/v2/leads'
+And request read('LeadUpdate.json')
+When method PUT
+Then status 200
